@@ -9,7 +9,7 @@
 ### **将会学到**
 
 1. C# UDP 编程
-2. 使用 .NET Poly Notebooks 交互式工具搭建 DJI Ryze Tello 原型
+2. 使用 .NET Polyglot Notebooks 交互式工具搭建 DJI Ryze Tello 原型
 3. 移动应用的相关知识
 4. .NET MAUI 跨平台应用的相关知识
 5. 使用 .NET MAUI Comet 构建 UI

@@ -10,7 +10,7 @@ Hi, do you use .NET MAUI for application development? With .NET, you can build m
 ### **You can learn**
 
 1. C# UDP programming
-2. Build a DJI Ryze Tello Prototype Using the .NET Poly Notebooks Interactive Tool
+2. Build a DJI Ryze Tello Prototype Using the .NET Polyglot Notebooks Interactive Tool
 3. Knowledge about mobile applications develpment
 4. Knowledge of .NET MAUI 
 5. Build UI with .NET MAUI Comet
