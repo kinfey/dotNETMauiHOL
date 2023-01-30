@@ -54,10 +54,10 @@ public class TelloSDK
 
         //this.udpClient.Send(sendCmdBytes, sendCmdBytes.Length);
 
-        var start = DateTime.Now;
 
-        if (cmd != "command" && cmd != "land" && cmd != "streamon")
+        if (cmd != "command" && cmd != "land" && cmd != "streamon" && cmd != "takeoff")
         {
+            var start = DateTime.Now;
 
             bool status = true;
 
