@@ -1,21 +1,14 @@
 ﻿<Properties StartupConfiguration="{882AFF2B-A3C1-43BA-B74C-BD4B99CA1578}|Default">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <Xamarin.Addins.Core.Project ActiveDebugTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.00008101-000B18CE2178001E" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.TelloMAUI PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.00008101-000B18CE2178001E" automaticSigning="True">
+  <MonoDevelop.Ide.ItemProperties.TelloMAUI PreferredExecutionTarget="MyAppleMacCatalystID" automaticSigning="True">
     <MonoDevelop.MacDev.AppleDevelopmentTeam DeveloperId="HK4NQ8L827" TeamId="HK4NQ8L827" />
   </MonoDevelop.Ide.ItemProperties.TelloMAUI>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Utils/TelloSDK.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MainPage.xaml.cs">
     <Files>
-      <File FileName="MainPage.xaml" Line="23" Column="1" />
+      <File FileName="MainPage.xaml" Line="1" Column="1" />
       <File FileName="Platforms/iOS/Info.plist" />
       <File FileName="Platforms/Android/AndroidManifest.xml" />
-      <File FileName="Utils/TelloSDK.cs" Line="21" Column="36" />
-      <File FileName="MainPage.xaml.cs" Line="25" Column="30" />
+      <File FileName="Utils/TelloSDK.cs" Line="29" Column="6" />
+      <File FileName="MainPage.xaml.cs" Line="11" Column="1" />
       <File FileName="Platforms/iOS/Program.cs" />
       <File FileName="App.xaml" />
     </Files>
@@ -29,9 +22,7 @@
                 <Node name="Android" expanded="True" />
                 <Node name="iOS" expanded="True" />
               </Node>
-              <Node name="Utils" expanded="True">
-                <Node name="TelloSDK.cs" selected="True" />
-              </Node>
+              <Node name="Utils" expanded="True" />
               <Node name="App.xaml" expanded="True" />
               <Node name="AppShell.xaml" expanded="True" />
               <Node name="MainPage.xaml" expanded="True" />
@@ -41,4 +32,12 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MyAppleMacCatalystID" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="13.1.0.1" />
+  <MultiItemStartupConfigurations />
 </Properties>
