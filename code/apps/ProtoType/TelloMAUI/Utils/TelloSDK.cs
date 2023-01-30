@@ -28,7 +28,6 @@ public class TelloSDK
     public void Land()
     {
         Command("land");
-        this.udpClient.Close();
     }
 
     public void FlyCMD(string cmd)
@@ -53,7 +52,7 @@ public class TelloSDK
 
         sendCmdBytes = Encoding.UTF8.GetBytes(cmd);
 
-        this.udpClient.Send(sendCmdBytes, sendCmdBytes.Length);
+        //this.udpClient.Send(sendCmdBytes, sendCmdBytes.Length);
 
         var start = DateTime.Now;
 
@@ -72,8 +71,17 @@ public class TelloSDK
                     status = false;
                     Console.WriteLine("please wait 5 seconds");
                 }
+                else
+                {
+                    this.udpClient.Send(sendCmdBytes, sendCmdBytes.Length);
+                    status = false;
+                }
 
             }
+        }
+        else
+        {
+            this.udpClient.Send(sendCmdBytes, sendCmdBytes.Length);
         }
     }
 }

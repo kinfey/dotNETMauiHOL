@@ -29,8 +29,8 @@
 	<key>XSAppIconAssets</key>
 	<string>Assets.xcassets/appicon.appiconset</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.kinfeyapp.TelloApp</string>
+	<string>com.kinfeyapp.TelloSDK</string>
 	<key>CFBundleDisplayName</key>
-	<string>TelloApp</string>
+	<string>TelloAppSDK</string>
 </dict>
 </plist>

@@ -13,7 +13,6 @@ public partial class MainPage : ContentPage
         tello.Command("command");
     }
 
-    
 
     void btnTakeOff_Clicked(System.Object sender, System.EventArgs e)
     {
@@ -22,27 +21,28 @@ public partial class MainPage : ContentPage
 
     void btnLand_Clicked(System.Object sender, System.EventArgs e)
     {
+
         tello.Land();
     }
 
     void btnUp_Clicked(System.Object sender, System.EventArgs e)
     {
-        tello.FlyCMD("up 20");
+        tello.FlyCMD("up 30");
     }
 
     void btnDown_Clicked(System.Object sender, System.EventArgs e)
     {
-        tello.FlyCMD("down 20");
+        tello.FlyCMD("down 30");
     }
 
     void btnLeft_Clicked(System.Object sender, System.EventArgs e)
     {
-        tello.FlyCMD("left 20");
+        tello.FlyCMD("left 30");
     }
 
     void btnRight_Clicked(System.Object sender, System.EventArgs e)
     {
-        tello.FlyCMD("right 20");
+        tello.FlyCMD("right 30");
     }
 }
 

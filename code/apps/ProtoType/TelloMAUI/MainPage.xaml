@@ -5,17 +5,18 @@
 
 
     <StackLayout Margin="20">
-        <Button Text="TakeOff" x:Name="btnTakeOff" Clicked="btnTakeOff_Clicked" Padding="20"/>
 
-        <Button Text="Land" x:Name="btnLand" Clicked="btnLand_Clicked" Padding="20" />
+        <Button Text="TakeOff" x:Name="btnTakeOff" Clicked="btnTakeOff_Clicked" Margin="20,20,20,10"/>
 
-        <Button Text="Up" x:Name="btnUp" Clicked="btnUp_Clicked" Padding="20"  />
+        <Button Text="Land" x:Name="btnLand" Clicked="btnLand_Clicked" Margin="20,20,20,10"/>
 
-        <Button Text="Down" x:Name="btnDown" Clicked="btnDown_Clicked" Padding="20"  />
+        <Button Text="Up" x:Name="btnUp" Clicked="btnUp_Clicked" Margin="20,20,20,10"  />
 
-        <Button Text="Left" x:Name="btnLeft" Clicked="btnLeft_Clicked" Padding="20" />
+        <Button Text="Down" x:Name="btnDown" Clicked="btnDown_Clicked" Margin="20,20,20,10"  />
 
-        <Button Text="Right" x:Name="btnRight" Clicked="btnRight_Clicked" Padding="20" />
+        <Button Text="Left" x:Name="btnLeft" Clicked="btnLeft_Clicked" Margin="20,20,20,10" />
+
+        <Button Text="Right" x:Name="btnRight" Clicked="btnRight_Clicked" Margin="20,20,20,10" />
     </StackLayout>
 
 </ContentPage>
