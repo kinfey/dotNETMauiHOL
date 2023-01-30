@@ -1,0 +1,47 @@
+﻿<Properties StartupConfiguration="{882AFF2B-A3C1-43BA-B74C-BD4B99CA1578}|Default">
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.00008101-000B18CE2178001E" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/kinfey/Desktop/TelloMAUI/MainPage.xaml.cs" relfile="MainPage.xaml.cs" line="13" column="1" />
+      <Breakpoint file="/Users/kinfey/Desktop/TelloMAUI/Utils/TelloSDK.cs" relfile="Utils/TelloSDK.cs" line="52" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Platforms/iOS/Info.plist">
+    <Files>
+      <File FileName="MainPage.xaml" Line="17" Column="1" />
+      <File FileName="Platforms/iOS/Info.plist" />
+      <File FileName="Platforms/Android/AndroidManifest.xml" />
+      <File FileName="Utils/TelloSDK.cs" Line="78" Column="1" />
+      <File FileName="MainPage.xaml.cs" Line="14" Column="1" />
+      <File FileName="Platforms/iOS/Program.cs" Line="13" Column="1" />
+      <File FileName="Platforms/iOS/Entitlements.plist" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TelloMAUI" expanded="True">
+            <Node name="TelloMAUI" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Platforms" expanded="True">
+                <Node name="Android" expanded="True" />
+                <Node name="iOS" expanded="True">
+                  <Node name="Info.plist" selected="True" />
+                </Node>
+              </Node>
+              <Node name="Utils" expanded="True" />
+              <Node name="App.xaml" expanded="True" />
+              <Node name="AppShell.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.TelloMAUI automaticSigning="True" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.00008101-000B18CE2178001E">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam DeveloperId="HK4NQ8L827" TeamId="HK4NQ8L827" />
+  </MonoDevelop.Ide.ItemProperties.TelloMAUI>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>
