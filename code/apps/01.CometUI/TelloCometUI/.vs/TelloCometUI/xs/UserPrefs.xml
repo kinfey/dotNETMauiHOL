@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{4067340A-BF74-4E4C-97BE-6C932B5FC9D6}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.00008101-000B18CE2178001E" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TelloCometUI/Platforms/iOS/Info.plist">
+    <Files>
+      <File FileName="TelloCometUI/Platforms/iOS/Info.plist" />
+      <File FileName="TelloCometUI/Platforms/iOS/Program.cs" Line="1" Column="1" />
+      <File FileName="TelloCometUI/Views/ControlView.cs" Line="1" Column="1" />
+      <File FileName="TelloCometUI/Utils/TelloSDK.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TelloCometUI" expanded="True">
+            <Node name="TelloCometUI" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Platforms" expanded="True">
+                <Node name="iOS" expanded="True" />
+              </Node>
+              <Node name="Utils" expanded="True" />
+              <Node name="Views" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.TelloCometUI automaticSigning="True" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.00008101-000B18CE2178001E">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam DeveloperId="HK4NQ8L827" TeamId="HK4NQ8L827" />
+  </MonoDevelop.Ide.ItemProperties.TelloCometUI>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
