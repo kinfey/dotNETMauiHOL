@@ -1,23 +1,26 @@
 ﻿<Properties StartupConfiguration="{882AFF2B-A3C1-43BA-B74C-BD4B99CA1578}|Default">
-  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.P21272004791" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.MonoDroid LastDeploySdkVersion="13.1.0.1" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/kinfey/Desktop/dotNETMauiHOL/code/apps/00.ProtoType/TelloMAUI/MainPage.xaml.cs" relfile="MainPage.xaml.cs" line="12" column="1" />
+      <Breakpoint file="/Users/kinfey/Desktop/dotNETMauiHOL/code/apps/00.ProtoType/TelloMAUI/Utils/TelloSDK.cs" relfile="Utils/TelloSDK.cs" line="17" column="1" />
+      <Breakpoint file="/Users/kinfey/Desktop/dotNETMauiHOL/code/apps/00.ProtoType/TelloMAUI/Utils/TelloSDK.cs" relfile="Utils/TelloSDK.cs" line="21" column="1" />
+      <Breakpoint file="/Users/kinfey/Desktop/dotNETMauiHOL/code/apps/00.ProtoType/TelloMAUI/Utils/TelloSDK.cs" relfile="Utils/TelloSDK.cs" line="25" column="1" />
+      <Breakpoint file="/Users/kinfey/Desktop/dotNETMauiHOL/code/apps/00.ProtoType/TelloMAUI/Utils/TelloSDK.cs" relfile="Utils/TelloSDK.cs" line="51" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="MainPage.xaml.cs">
+  <MonoDevelop.Ide.ItemProperties.TelloMAUI PreferredExecutionTarget="MyAppleMacCatalystID" automaticSigning="True">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam DeveloperId="HK4NQ8L827" TeamId="HK4NQ8L827" />
+  </MonoDevelop.Ide.ItemProperties.TelloMAUI>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Utils/TelloSDK.cs">
     <Files>
       <File FileName="MainPage.xaml" Line="1" Column="1" />
       <File FileName="Platforms/iOS/Info.plist" />
-      <File FileName="Platforms/Android/AndroidManifest.xml" />
-      <File FileName="Utils/TelloSDK.cs" Line="29" Column="6" />
-      <File FileName="MainPage.xaml.cs" Line="9" Column="25" />
+      <File FileName="Utils/TelloSDK.cs" Line="79" Column="1" />
+      <File FileName="MainPage.xaml.cs" Line="19" Column="1" />
       <File FileName="Platforms/iOS/Program.cs" />
       <File FileName="App.xaml" />
+      <File FileName="MauiProgram.cs" Line="1" Column="1" />
+      <File FileName="Platforms/Android/AndroidManifest.xml" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -32,16 +35,16 @@
               <Node name="Utils" expanded="True" />
               <Node name="App.xaml" expanded="True" />
               <Node name="AppShell.xaml" expanded="True" />
-              <Node name="MainPage.xaml" expanded="True">
-                <Node name="MainPage.xaml.cs" selected="True" />
-              </Node>
+              <Node name="MainPage.xaml" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.TelloMAUI PreferredExecutionTarget="Android.P21272004791" automaticSigning="True">
-    <MonoDevelop.MacDev.AppleDevelopmentTeam DeveloperId="HK4NQ8L827" TeamId="HK4NQ8L827" />
-  </MonoDevelop.Ide.ItemProperties.TelloMAUI>
+  <MultiItemStartupConfigurations />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MyAppleMacCatalystID" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="13.1.0.1" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
