@@ -37,7 +37,7 @@ This series hopes to build an iOS and Android application to control DJI Ryze Te
 
 You can learn related content in the following order
 
-| Learning topics | Related content | Link |
+| Title | Content | Link |
 | ----------- | ----------- | ----------- |
 | Environment configuration | Development environment building skills, including the installation of .NET MAUI, <br/>configuration of development tools and the conditions to be prepared for application development based on iOS / Android | Link
 | C# UDP programming | Learn C# UDP programming, and connect to DJI Ryze Tello through Notebooks, <br/>Complete the construction of prototype development | <a href="./en/01.UDPwithCSharp.md">Link</a>
