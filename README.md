@@ -39,11 +39,12 @@ You can learn related content in the following order
 
 | Title | Content | Link |
 | ----------- | ----------- | ----------- |
-| Environment configuration | Development environment building skills, including the installation of .NET MAUI, <br/>configuration of development tools and the conditions to be prepared for application development based on iOS / Android | Link
+| Development environment configuration | Development environment building skills, including the installation of .NET MAUI, <br/>configuration of development tools and the conditions to be prepared for application development based on iOS / Android | <a href="./en/00.Env.md">Link</a>
 | C# UDP programming | Learn C# UDP programming, and connect to DJI Ryze Tello through Notebooks, <br/>Complete the construction of prototype development | <a href="./en/01.UDPwithCSharp.md">Link</a>
 | Learning of .NET MAUI | Learn about .NET MAUI, including iOS / Android development | <a href="./en/02.dotNETMAUIIntro.md">Link</a>
 | using .NET Comet  to build .NET MAUI UI | Learn about .NET MAUI Comet and use .NET MAUI Comet <br/> to build application UI | <a href="./en/03.dotNETMAUIComet.md">Link</a>
-| .NET MAUI binding native libraries of mobile  | Learn to migrate native libraries of mobile applications to .NET MAUI | Link
+| .NET MAUI binding native libraries of mobile  | Learn to migrate native libraries of mobile applications to .NET MAUI |  <a href="./en/04.dotNETMAUIBinding.md">Link</a>
+| Build DJI Ryze Tello Drone Application with .NET MAUI| Skills for building a complete project with .NET MAUI, including the settings of different platforms<br/> and knowledge of custom controls| <a href="./cn/05. dotNETMAUIApps.md">Link</a>
 
 
 ### **Finally**

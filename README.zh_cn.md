@@ -43,7 +43,7 @@ DJI Ryze Tello 是一款小型无人机，配备机载摄像头，能够拍摄 5
 | .NET MAUI 基础学习    | 学习 .NET MAUI 的相关知识，包括 iOS / Android 开发的相关知识 | <a href="./cn/02.dotNETMAUIIntro.md">进入</a>
 | .NET MAUI Comet UI 构建应用界面    | 学习 .NET MAUI Comet 的相关知识 ， 使用 .NET MAUI Comet <br/>构建应用界面 | <a href="./cn/03.dotNETMAUIComet.md">进入</a> 
 | .NET MAUI 绑定移动应用的原生库    | 学习把移动应用原生库迁移到 .NET MAUI  | <a href="./cn/04.dotNETMAUIBinding.md">进入</a> 
-| .NET MAUI 构建一个完整的项目技巧    | 用 .NET MAUI 构建一个完整项目的技巧，包括不同平台的设定 <br/> 以及自定义空间等知识 | <a href="./cn/05.dotNETMAUIApps.md">进入</a> 
+| .NET MAUI 构建一个完整的项目技巧    | 用 .NET MAUI 构建一个完整项目的技巧，包括不同平台的设定 <br/> 以及自定义控件等知识 | <a href="./cn/05.dotNETMAUIApps.md">进入</a> 
 
 
 ### **最终达成**
