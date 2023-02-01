@@ -1,0 +1,35 @@
+﻿<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+
+  <attr path="/api/package[@name='com.amap.api.maps.model']/class[@name='PolygonOptions']/method[@name='parse' and count(parameter)=1 and parameter[1][@type='int']]"
+  -->
+
+
+  <remove-node path="/api/package[@name='org.videolan.libvlc']/class[@name='LibVLC']/field[@name='GetOnEventNative_IJJFLjava_lang_String_Handler']" />
+
+  <remove-node path="/api/package[@name='org.videolan.libvlc.interfaces']/interface[@name='IMedia']/method[@name='parse' and count(parameter)=1 and parameter[1][@type='int']]" />
+  <remove-node path="/api/package[@name='org.videolan.libvlc.interfaces']/interface[@name='IMedia']/method[@name='parse' and count(parameter)=0]" />
+  <remove-node path="/api/package[@name='org.videolan.libvlc.interfaces']/interface[@name='IMedia']/method[@name='getStats' and count(parameter)=0]" />
+  <remove-node path="/api/package[@name='org.videolan.libvlc.interfaces']/interface[@name='IMedia']/method[@name='getState' and count(parameter)=0]" />
+  <remove-node path="/api/package[@name='org.videolan.libvlc.interfaces']/interface[@name='IMedia']/method[@name='getType' and count(parameter)=0]" />
+  <remove-node path="/api/package[@name='org.videolan.libvlc.interfaces']/interface[@name='IMedia']/method[@name='subItems' and count(parameter)=0]" />
+
+  <attr path="/api/package[@name='org.videolan.libvlc']/class[@name='Media']" name="managedName">MediaA</attr>
+
+
+  
+  <remove-node path="/api/package[@name='org.videolan.libvlc']/class[@name='MediaPlayer']/method[@name='onEventNative' and count(parameter)=5 and parameter[1][@type='int'] and parameter[2][@type='long'] and parameter[3][@type='long'] and parameter[4][@type='float'] and parameter[5][@type='java.lang.String']]"  />
+  <remove-node path="/api/package[@name='org.videolan.libvlc']/class[@name='Media']/method[@name='onEventNative' and count(parameter)=5 and parameter[1][@type='int'] and parameter[2][@type='long'] and parameter[3][@type='long'] and parameter[4][@type='float'] and parameter[5][@type='java.lang.String']]" />
+  <remove-node path="/api/package[@name='org.videolan.libvlc.interfaces']/interface[@name='IVLCObject']/method[@name='getLibVLC' and count(parameter)=0]" />
+    
+  <remove-node path="/api/package[@name='org.videolan.libvlc']/class[@name='MediaList']/method[@name='onEventNative' and count(parameter)=5 and parameter[1][@type='int'] and parameter[2][@type='long'] and parameter[3][@type='long'] and parameter[4][@type='float'] and parameter[5][@type='java.lang.String']]" />
+  <remove-node path="/api/package[@name='org.videolan.libvlc']/class[@name='RendererDiscoverer']/method[@name='onEventNative' and count(parameter)=5 and parameter[1][@type='int'] and parameter[2][@type='long'] and parameter[3][@type='long'] and parameter[4][@type='float'] and parameter[5][@type='java.lang.String']]" />
+  <remove-node path="/api/package[@name='org.videolan.libvlc']/class[@name='RendererItem']/method[@name='onEventNative' and count(parameter)=5 and parameter[1][@type='int'] and parameter[2][@type='long'] and parameter[3][@type='long'] and parameter[4][@type='float'] and parameter[5][@type='java.lang.String']]" />
+  <remove-node path="/api/package[@name='org.videolan.libvlc']/class[@name='MediaDiscoverer']/method[@name='onEventNative' and count(parameter)=5 and parameter[1][@type='int'] and parameter[2][@type='long'] and parameter[3][@type='long'] and parameter[4][@type='float'] and parameter[5][@type='java.lang.String']]" />
+  <remove-node path="/api/package[@name='org.videolan.libvlc']/class[@name='LibVLC']/method[@name='onEventNative' and count(parameter)=5 and parameter[1][@type='int'] and parameter[2][@type='long'] and parameter[3][@type='long'] and parameter[4][@type='float'] and parameter[5][@type='java.lang.String']]" />
+</metadata>
