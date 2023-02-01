@@ -49,6 +49,8 @@ DJI Ryze Tello 是一款小型无人机，配备机载摄像头，能够拍摄 5
 ### **最终达成**
 
 
+<img src="./imgs/final.gif"/>
+
 ### **Q&A**
 
 如果你有任何问题，可以通过 Email 和我沟通 ，我的 Email 是 kinfeylo@microsoft.com

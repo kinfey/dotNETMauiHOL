@@ -49,6 +49,7 @@ You can learn related content in the following order
 
 ### **Finally**
 
+<img src="./imgs/final.gif"/>
 
 ### **Q&A**
 
