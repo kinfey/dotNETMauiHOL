@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net7.0-ios</TargetFramework>
+    <RootNamespace>MobileVLCKit</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>true</ImplicitUsings>
+    <IsBindingProject>true</IsBindingProject>
+		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+		<NoBindingEmbedding>false</NoBindingEmbedding>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ObjcBindingApiDefinition Include="ApiDefinitions.cs" />
+    <ObjcBindingCoreSource Include="StructsAndEnums.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <NativeReference Include="MobileVLCKit.framework">
+      <Kind>Framework</Kind>
+      <IsCxx>True</IsCxx>
+      <ForceLoad>True</ForceLoad>
+      <SmartLink>True</SmartLink>
+      <Frameworks>MediaPlayer Accelerate AssetsLibrary AVFoundation CoreMedia AudioToolbox CoreData CoreMedia CoreSpotlight MobileCoreServices CoreAudio OpenGLES CFNetwork CoreText QuartzCore CoreGraphics UIKit Security StoreKit SystemConfiguration VideoToolbox</Frameworks>
+      <LinkerFlags>-lbz2 -liconv -lstdc++</LinkerFlags>
+    </NativeReference>
+  </ItemGroup>
+</Project>

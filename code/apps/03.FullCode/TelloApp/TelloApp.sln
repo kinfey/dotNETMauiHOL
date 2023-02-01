@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelloApp.UI", "TelloApp.UI\TelloApp.UI.csproj", "{C734703A-A705-41C1-A3C6-A469CE58B831}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VLCSharp.iOS", "VLCSharp.iOS\VLCSharp.iOS.csproj", "{5981FDB8-978B-4FFF-815B-8D6EBC03A553}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VLCSharp.Droid", "VLCSharp.Droid\VLCSharp.Droid.csproj", "{1589E3D3-72D9-4991-8D2B-535D2ECC604E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C734703A-A705-41C1-A3C6-A469CE58B831}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C734703A-A705-41C1-A3C6-A469CE58B831}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C734703A-A705-41C1-A3C6-A469CE58B831}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C734703A-A705-41C1-A3C6-A469CE58B831}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5981FDB8-978B-4FFF-815B-8D6EBC03A553}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5981FDB8-978B-4FFF-815B-8D6EBC03A553}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5981FDB8-978B-4FFF-815B-8D6EBC03A553}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5981FDB8-978B-4FFF-815B-8D6EBC03A553}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1589E3D3-72D9-4991-8D2B-535D2ECC604E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1589E3D3-72D9-4991-8D2B-535D2ECC604E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1589E3D3-72D9-4991-8D2B-535D2ECC604E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1589E3D3-72D9-4991-8D2B-535D2ECC604E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

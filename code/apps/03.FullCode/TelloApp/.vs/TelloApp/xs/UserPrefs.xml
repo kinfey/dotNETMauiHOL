@@ -1,0 +1,4 @@
+﻿<Properties StartupConfiguration="{C734703A-A705-41C1-A3C6-A469CE58B831}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.TelloApp.UI PreferredExecutionTarget="MyAppleMacCatalystID" />
+</Properties>
