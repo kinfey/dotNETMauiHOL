@@ -44,7 +44,7 @@ You can learn related content in the following order
 | Learning of .NET MAUI | Learn about .NET MAUI, including iOS / Android development | <a href="./en/02.dotNETMAUIIntro.md">Link</a>
 | using .NET Comet  to build .NET MAUI UI | Learn about .NET MAUI Comet and use .NET MAUI Comet <br/> to build application UI | <a href="./en/03.dotNETMAUIComet.md">Link</a>
 | .NET MAUI binding native libraries of mobile  | Learn to migrate native libraries of mobile applications to .NET MAUI |  <a href="./en/04.dotNETMAUIBinding.md">Link</a>
-| Build DJI Ryze Tello Drone Application with .NET MAUI| Skills for building a complete project with .NET MAUI, including the settings of different platforms<br/> and knowledge of custom controls| <a href="./cn/05. dotNETMAUIApps.md">Link</a>
+| Build DJI Ryze Tello Drone Application with .NET MAUI| Skills for building a complete project with .NET MAUI, including the settings of different platforms<br/> and knowledge of custom controls| <a href="./en/05.dotNETMAUIApps.md">Link</a>
 
 
 ### **Finally**
