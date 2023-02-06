@@ -10,8 +10,8 @@ public class ControlView : View{
 
     public ControlView()
     {
-        tello.Connect();
-        tello.Command("command");
+        // tello.Connect();
+        // tello.Command("command");
     }
 
 
@@ -22,30 +22,30 @@ public class ControlView : View{
             new VStack(){
                 new HStack(){
                     new ImageButton("up.png" ,()=>{
-                        tello.FlyCMD("up 20");
+                        // tello.FlyCMD("up 20");
                     }).Frame(width:50,height:50).Alignment(Alignment.Center),
                 },
                 new HStack(){
                     new ImageButton("left.png" ,()=>{
-                        tello.FlyCMD("left 20");
+                        // tello.FlyCMD("left 20");
                     }).Frame(width:50,height:50).Alignment(Alignment.Leading),
                     new ImageButton(telloStatus.DroneStatus ,()=>{
                         if(telloStatus.TakeOff){
-                           tello.TakeOff();
+                        //    tello.TakeOff();
                         }
                         else
                         {
-                           tello.Land();
+                        //    tello.Land();
                         }
                         telloStatus.TakeOff = !telloStatus.TakeOff;
                     }).Frame(width:80,height:80).Alignment(Alignment.Center),
                     new ImageButton("right.png" ,()=>{
-                            tello.FlyCMD("right 20");
+                            // tello.FlyCMD("right 20");
                     }).Frame(width:50,height:50).Alignment(Alignment.Trailing),
                 },
                 new HStack(){
                     new ImageButton("down.png" ,()=>{
-                            tello.FlyCMD("down 20");
+                            // tello.FlyCMD("down 20");
                     }).Frame(width:50,height:50).Alignment(Alignment.Center),
                 },
             }.Padding(20).Margin(30).Alignment(Alignment.Center),

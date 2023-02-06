@@ -7,8 +7,6 @@ using UIKit;
 
 using MobileVLCKit;
 using Microsoft.Maui.Handlers;
-using MapKit;
-//using System.Drawing;
 
 namespace TelloApp.UI
 {
@@ -20,20 +18,7 @@ namespace TelloApp.UI
 
         protected override VideoPlayerView CreatePlatformView()
         {
-
-
-
-            // var player = new VLCMediaPlayer();
-            // player.Media = new VLCMedia("udp://@:11111");
-            // player.Delegate = new VLCMediaPlayerDelegate();
-            //player.Media = new VLCMedia(NSUrl.FromString("http://streams.videolan.org/streams/mp4/Mr_MrsSmith-h264_aac.mp4"));
-
-            //player.Play();
-
-            //VideoPlayerView view = 
-            //player.Media = new VLC Media("udp://@:11111");
             var view = new VideoPlayerView();
-            //view.Frame = new RectangleF { Width = 160, Height = 90 };
 
             return view;
           }
@@ -43,18 +28,10 @@ namespace TelloApp.UI
 
         protected override void DisconnectHandler(VideoPlayerView PlatformView)
         {
-            // Clean-up the native view to reduce memory leaks and memory usage
-            //if (PlatformView.Delegate != null)
-            //{
-            //    PlatformView.Delegate.Dispose();
-            //    PlatformView.Delegate = null;
-            //}
 
             PlatformView.RemoveFromSuperview();
         }
     }
-
-    // public class VLCPlay
 
 
 }

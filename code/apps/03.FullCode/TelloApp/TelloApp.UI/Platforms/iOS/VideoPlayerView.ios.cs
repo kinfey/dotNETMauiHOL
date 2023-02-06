@@ -26,8 +26,6 @@ namespace TelloApp.UI
             _player = new VLCMediaPlayer();
             _playerViewController.View.Frame = new RectangleF { Width = 400, Height = 300 };
 
-
-            //NSUrl.FromString("http://streams.videolan.org/streams/mp4/Mr_MrsSmith-h264_aac.mp4")
             var media =  new VLCMedia(NSUrl.FromString("udp/h264://@0.0.0.0:11111"));
 
             _player.Media = media;
